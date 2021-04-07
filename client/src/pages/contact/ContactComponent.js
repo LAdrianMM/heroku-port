@@ -58,7 +58,7 @@ function Contact(props) {
     validate,
     onSubmit : (values, { resetForm }) => {
       setSending(true)
-      fetch('http://localhost:3001/api/sendMail', {
+      fetch('/api/sendMail', {
         method: 'POST',
         headers: {
         Accept: 'application/json',
