@@ -32,19 +32,20 @@ app.use(bodyParser.json())
 app.use(cors(corsOptions))
 
 app.use("/api", Mail)
+
+app.use(express.static(path.join(__dirname, 'client/build')));
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
 }
 );
 
-if(process.env.NODE_ENV === 'production'){
-  //serve any static files
-  app.use(express.static(path.join(__dirname, 'client/build')));
-  // Handle REact routing, return all request to React app
-  app.get('*', function(req, res){
-    res.sendFile(path.join(__dirname, 'client/build', 'index.html'))
-  })
-}
+// if(process.env.NODE_ENV === 'production'){
+//   //serve any static files
+//   // Handle REact routing, return all request to React app
+//   app.get('*', function(req, res){
+//     res.sendFile(path.join(__dirname, 'client/build', 'index.html'))
+//   })
+// }
 
 
 const port = process.env.PORT || 3001
