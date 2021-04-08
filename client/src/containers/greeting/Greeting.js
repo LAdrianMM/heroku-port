@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
-import Typed from 'react-typed'
+import Typed from "react-typed";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -32,19 +32,20 @@ export default function Greeting(props) {
               >
                 <span>I'm </span>
                 <span style={{ color: theme.accentColor }}>
-                <Typed
-									className='text-cyan'
-									strings={[`${greeting.full_name}`, `${greeting.subTitle2}`]}
-									typeSpeed={100}
-									backSpeed={120}
-									loop
-								/>
+                  <Typed
+                    className="text-cyan"
+                    strings={[`${greeting.full_name}`, `${greeting.subTitle2}`]}
+                    typeSpeed={100}
+                    backSpeed={120}
+                    loop
+                  />
                 </span>
               </p>
               <p
                 className="greeting-text-subTitle"
                 style={{ color: theme.secondaryText }}
-              >{greeting.subTitle} {' '}
+              >
+                {greeting.subTitle}{" "}
               </p>
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
