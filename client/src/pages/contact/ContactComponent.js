@@ -242,7 +242,7 @@ function Contact(props) {
                     />
                     <div className={classes.buttonWrapper}>
                       <Button
-                        disabled={sending}
+                        // disabled={sending}
                         typy="submit"
                         {...styles}
                         className={classes.formButton}
@@ -328,6 +328,9 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: "hsl(214, 96%, 70%)",
     },
     "&:focus": {
+      backgroundColor: "hsl(214, 96%, 70%)",
+    },
+    "&:active": {
       backgroundColor: "hsl(214, 96%, 70%)",
     },
   },
