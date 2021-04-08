@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-   isSplash: true, // Change this to true if you want to use the splash screen.
+  isSplash: true, // Change this to true if you want to use the splash screen.
   // useCustomCursor: true, // Change this to false if you want the good'ol cursor
   // googleTrackingID: "UA-174238252-2",
 };
@@ -14,12 +14,10 @@ const greeting = {
   logo_name: "",
   nickname: "",
   full_name: "Luis Matos.",
-  subTitle:
-    "Frontend Developer Jr.",
-  subTitle2:
-    "React and React Native Developer.",
+  subTitle: "Frontend Developer Jr.",
+  subTitle2: "React and React Native Developer.",
   resumeLink:
-    "https://drive.google.com/file/d/1ARS2lPQ6l7dCHoNYWu05ATG-KD6NFDqh/view?usp=sharing",
+    "https://drive.google.com/file/d/1QXQkYyh1Wp63caWEi2TigxP37-sl_WDF/view?usp=sharing",
   mail: "mailto:ladrianmm@gmail.com",
 };
 
@@ -115,8 +113,8 @@ const skills = {
           skillName: "React Native",
           fontAwesomeClassname: "simple-icons:react",
           style: {
-            backgroundColor: '#61DAFB',
-            borderRadius: '50%',
+            backgroundColor: "#61DAFB",
+            borderRadius: "50%",
             color: "#FFFFFF",
           },
         },
@@ -157,7 +155,7 @@ const skills = {
         // "Experience working on multiple cloud platforms",
         // "⚡ Experience hosting and managing websites",
         // "⚡ Experience with Continuous Integration",
-        ''
+        "",
       ],
       softwareSkills: [
         {
@@ -226,7 +224,8 @@ const certifications = {
       logo_path: "codecademy.png",
       alt_name: "Full-Stack Engineer",
       color_code: "#fdefe5",
-      content: 'Fullstack professional course PERN (Postgresql, Express, React and Node). Studying each language and framework in detail. Constant practice and versioning with git and github. Progress 15%',
+      content:
+        "Fullstack professional course PERN (Postgresql, Express, React and Node). Studying each language and framework in detail. Constant practice and versioning with git and github. Progress 15%",
     },
     {
       title: "Frontend Developer",
@@ -236,28 +235,31 @@ const certifications = {
         "https://drive.google.com/file/d/1cEdrXRg4YEMcVt_WqkIHGmjeYlzLBPVM/view?usp=sharing",
       alt_name: "Frontend Developer",
       color_code: "#97ca3f",
-      content: 'Basic frontend development course, doing practice in HTML, CSS, CSS Architectures, Flexbox, CSS Grid and Accessibility.',
+      content:
+        "Basic frontend development course, doing practice in HTML, CSS, CSS Architectures, Flexbox, CSS Grid and Accessibility.",
     },
     {
       title: "Asynchronism with Javascript",
       subtitle: "Platzi",
       logo_path: "platzi-logo.jpg",
       certificate_link:
-      "https://drive.google.com/file/d/1EzKFbJ72zcsHLPIeqp9rK9xZtbW0VDLU/view?usp=sharing",
+        "https://drive.google.com/file/d/1EzKFbJ72zcsHLPIeqp9rK9xZtbW0VDLU/view?usp=sharing",
       alt_name: "Asynchronism",
       color_code: "#97ca3f",
-      content: 'Callbacks structures, requests to APIs using Callbacks, Promises implementation, solve problems with Promises, Async-await, solve problems with Async-await',
+      content:
+        "Callbacks structures, requests to APIs using Callbacks, Promises implementation, solve problems with Promises, Async-await, solve problems with Async-await",
     },
     {
       title: "Javascript",
       subtitle: "Platzi",
       logo_path: "platzi-logo.jpg",
       certificate_link:
-      "https://drive.google.com/file/d/1tTXeVaFbjfJYfpYEY0TCHNhdm2VOdoCB/view?usp=sharing",
+        "https://drive.google.com/file/d/1tTXeVaFbjfJYfpYEY0TCHNhdm2VOdoCB/view?usp=sharing",
       alt_name: "Javascript",
       // color_code: "#F6B808",
       color_code: "#97ca3f",
-      content: 'Main functionalities of the language: Variables, Functions, Arrays, Loops, Conditionals, OOP, Arrow Functions, Asynchronism, Callbacks, Promises, among other basic functions of the language.',
+      content:
+        "Main functionalities of the language: Variables, Functions, Arrays, Loops, Conditionals, OOP, Arrow Functions, Asynchronism, Callbacks, Promises, among other basic functions of the language.",
     },
     {
       title: "Course Basic Javascript",
@@ -268,7 +270,8 @@ const certifications = {
       alt_name: "Basic Javascript",
       // color_code: "#F6B808",
       color_code: "#97ca3f",
-      content: 'Giving an introduction to the programming language seeing definitions of Variables, Conditionals, Loops, Scope, Functions, Arrays, traversing Arrays.',
+      content:
+        "Giving an introduction to the programming language seeing definitions of Variables, Conditionals, Loops, Scope, Functions, Arrays, traversing Arrays.",
     },
     {
       title: "Web Development",
@@ -279,7 +282,8 @@ const certifications = {
       alt_name: "HTML and CSS",
       // color_code: "#2AAFED",
       color_code: "#97ca3f",
-      content: 'Explaining the functions of the web, the structures of the pages and the different components that make them up, seeing in detail HTML and applicable styles in CSS',
+      content:
+        "Explaining the functions of the web, the structures of the pages and the different components that make them up, seeing in detail HTML and applicable styles in CSS",
     },
     {
       title: "Bootstrap",
@@ -289,17 +293,19 @@ const certifications = {
         "https://drive.google.com/file/d/197ZGT2NGnf-mB9kU6f2Sp4OeK5Vsn9m1/view?usp=sharing",
       alt_name: "Bootstrap",
       color_code: "#97ca3f",
-      content: 'Practice with the css framework, using Buttons, AppBars, Inputs, Positions, Dimensions and more',
+      content:
+        "Practice with the css framework, using Buttons, AppBars, Inputs, Positions, Dimensions and more",
     },
     {
       title: "CSS Grid Layout",
       subtitle: "Platzi",
       logo_path: "platzi-logo.jpg",
       certificate_link:
-      "https://drive.google.com/file/d/1sICwKlYet6_48ZQeB2_h9QdldtY5CdSb/view?usp=sharing",
+        "https://drive.google.com/file/d/1sICwKlYet6_48ZQeB2_h9QdldtY5CdSb/view?usp=sharing",
       alt_name: "CSS Grid",
       color_code: "#97ca3f",
-      content: 'Working in detail with Css grid layout, using columns, rows, grid-gap, positioning, responsive design and mobile first methodology',
+      content:
+        "Working in detail with Css grid layout, using columns, rows, grid-gap, positioning, responsive design and mobile first methodology",
     },
     {
       title: "Layout in CSS ",
@@ -309,7 +315,8 @@ const certifications = {
         "https://drive.google.com/file/d/1iYiDHjTA32cZ-MS3GpkripmWbgLlwptF/view?usp=sharing",
       alt_name: "Layout in CSS",
       color_code: "#97ca3f",
-      content: 'Practice with the language of styles, practicing with specificity, colors, Flexbox, Grid, styles in lines and more',
+      content:
+        "Practice with the language of styles, practicing with specificity, colors, Flexbox, Grid, styles in lines and more",
     },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
@@ -329,29 +336,31 @@ const about = {
   subtitle: "Luis Adrian Matos Marrero",
   description:
     "At the age of 24, I am characterized by being a person full of energy, enthusiastic, responsible, self-taught, analytical, collaborative. In general, when I am in a new project I easily detect the problems that it may have, this encourages me to propose possible solutions so that the work is optimal.",
-  description2: 'The reason I decided to dedicate myself to web development is because this profession goes beyond a programming language, it is about taking an idea or problem and developing a program that solves it efficiently and creatively. This leads me to be in constant research and learning so that this solution is always the most innovative and scalable.',
-  description3: ' In my free time I like to walk on the beach, it is excellent to clear my mind and consolidate ideas. Spending quality time with my family and listening to music in English and Italian helps me get out of the routine.',
+  description2:
+    "The reason I decided to dedicate myself to web development is because this profession goes beyond a programming language, it is about taking an idea or problem and developing a program that solves it efficiently and creatively. This leads me to be in constant research and learning so that this solution is always the most innovative and scalable.",
+  description3:
+    " In my free time I like to walk on the beach, it is excellent to clear my mind and consolidate ideas. Spending quality time with my family and listening to music in English and Italian helps me get out of the routine.",
   header_image_path: "experience.svg",
   languages: [
     {
       title: "English",
-      subtitle: 'Between A2 and B1',
-      logo_path: 'english.png',
-      color_code: 'blue',
+      subtitle: "Between A2 and B1",
+      logo_path: "english.png",
+      color_code: "blue",
       alt_name: "ENG",
     },
     {
       title: "Italian",
-      subtitle: 'Between A2 and B1',
-      logo_path: 'italian.jpg',
-      color_code: 'green',
+      subtitle: "Between A2 and B1",
+      logo_path: "italian.jpg",
+      color_code: "green",
       alt_name: "ITA",
     },
     {
       title: "Spanish",
-      subtitle: 'Native',
-      logo_path: 'spanish.png',
-      color_code: 'red',
+      subtitle: "Native",
+      logo_path: "spanish.png",
+      color_code: "red",
       alt_name: "ESP",
     },
     // {
@@ -391,7 +400,7 @@ const experience = {
           description:
             "Modify Front end of a new startup Dudiprop Argentina. Create new reusable components. Improve the user experience, adapt the website to all devices (responsive design). Streamline processes so that it is available to the public in a few months",
           color: "#ee3c26",
-        }
+        },
       ],
     },
   ],
@@ -409,9 +418,9 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    phone: '+56 9 20686539',
-    email: 'ladrianmm@gmail.com',
-    address: 'Antofagasta, Chile',
+    phone: "+56 9 20686539",
+    email: "ladrianmm@gmail.com",
+    address: "Antofagasta, Chile",
     description:
       "Proactive, autodidact, responsible, teamwork and passionate about technology are just some qualities that describe me. If you need a good pillar in your team, contact me or leave me your information and I will contact you.",
   },
@@ -424,7 +433,7 @@ const contactPageData = {
   },
 };
 const projects = {
-  data: [  
+  data: [
     {
       id: "0",
       name: "Images Gallery",
@@ -471,12 +480,10 @@ const projects = {
           iconifyClass: "logos-redux",
         },
         {
-        
           name: "React-Router",
           iconifyClass: "logos-react-router",
         },
         {
-        
           name: "Material-UI",
           iconifyClass: "logos-material-ui",
         },
@@ -528,8 +535,7 @@ const projects = {
       id: "4",
       name: "Bienes Raices Page",
       url: "https://github.com/LAdrianMM/BienesRaices",
-      description:
-        "My first web page written only in HTML and CSS",
+      description: "My first web page written only in HTML and CSS",
       languages: [
         {
           name: "HTML5",
@@ -538,9 +544,9 @@ const projects = {
         {
           name: "CSS3",
           iconifyClass: "vscode-icons:file-type-css",
-        }
+        },
       ],
-    },  
+    },
   ],
 };
 
